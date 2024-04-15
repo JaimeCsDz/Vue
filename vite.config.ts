@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://JaimeCsDz.github.io/Vue/'
+  base: 'https://JaimeCsDz.github.io/'
 })
