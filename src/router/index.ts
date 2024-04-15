@@ -12,7 +12,7 @@ import NotFoundPage from '@/views/NotFoundPage.vue'
 import Tokenview from '@/views/Tokenview.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('#'),
   routes: [
     {
       path: '/',
