@@ -2,11 +2,8 @@
   "name": "myevents",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://JaimeCsDz.github.io/Vue",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "main -d dist",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
